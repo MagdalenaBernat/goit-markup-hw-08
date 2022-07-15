@@ -63,9 +63,56 @@
    
    /* ---header-nav---- */
 
-.container-pageheader {
+
+.header {
+    max-width: 1200px;
+    margin: 0px auto;
     padding: 20px;
 }
+
+.header-wrapper {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.header__nav {
+
+}
+
+.nav__list {
+            list-style-type: none;
+            display: inline-block;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1,17em;
+            color: #ffffff;
+            background-color: #ffffff;
+            padding: 0px;
+            margin: 15px;
+            display: flex;
+            margin-left: 93px;
+}
+
+.nav__item {
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46px;
+    position: relative;
+}
+
 
 /* ---HEADER-SECTION--- */
 

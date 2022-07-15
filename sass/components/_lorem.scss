@@ -2,34 +2,48 @@
     padding-top: 94px;
     padding-bottom: 94px;
     margin: 0 auto;
+
+        width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 }
 
 .lorem-container {
     display: flex;
-    flex-basis: 1200px;
+    // flex-basis: 1200px;
+    flex-basis: 100%;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
 
-&__list {
+
+    &__list {
     list-style-type: none;
-    display: inline-block;
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-content: center;
+    flex-direction: column;
 }
 
-&__list-item1 {
+    &__list-item {
+    min-width: 480px;
+    max-width: 480px;
     margin-left: auto;
     align-items: center;
     padding-right: 30px;
 }
 
-&__list-item2 {
-    margin-left: 30px;
-}
+// &__list-item2 {
+//     margin-left: 30px;
+// }
 }
 
 .lorem-icon {
@@ -41,11 +55,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-
 
 &__svg {
     width: 70px;
@@ -65,7 +74,7 @@
     height: 16px;
     padding-top: 30px;
 
-&__text-content {
+    &__text-content {
     font-size: 14px;
     line-height: 1, 71em;
     letter-spacing: 0, 03em;
@@ -77,3 +86,31 @@
     padding-top: 10px;
 }
 }
+
+
+    
+
+
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+            .lorem-container__list-item {
+                max-width: 768px;
+            }
+        }
+    
+        @media screen and (min-width: 768px) and (max-width: 1200px) {
+            .lorem-container__list-item {
+                flex-basis: calc(100% / 2);
+            }
+            .lorem-container__list {
+                flex-direction: row;
+            }
+        }
+    
+        @media screen and (min-width: 1200px) {
+            .lorem-container__list-item {
+                flex-basis: calc(100% / 3);
+            }
+            .lorem-container__list {
+                flex-direction: row;
+            }
+        }

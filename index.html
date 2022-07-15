@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./sass/main.css">
     <link 
         rel="stylesheet"    
@@ -19,17 +18,17 @@
 
 <body>
 
-    <header class="container container-pageheader">
+    <header class="header">
 
-        <div class="container flex-column-header">
+        <div class="header-wrapper">
             <a href="./index.html" class="link">
                 <span class="logo__part-left">Web</span><span class="logo__part-right">Studio</span>
             </a>
-            <nav>
+            <nav class="header__nav">
                 <ul class="nav-main">
-                    <li><a href="./index.html" class="nav-main__item active">Agencja</a></li>
-                    <li><a href="./portfolio.html" class="nav-main__item">Portfolio</a></li>
-                    <li><a href="" class="nav-main__item">Kontakt</a></li>
+                    <li><a href="./index.html" class="nav__item active">Agencja</a></li>
+                    <li><a href="./portfolio.html" class="nav__item">Portfolio</a></li>
+                    <li><a href="" class="nav__item">Kontakt</a></li>
                 </ul>
             </nav>
 
@@ -57,7 +56,7 @@
 
 <main>
     <section class="main-headline">
-        <div class="main-headline__container">
+        <div class="main-headline__container container">
             <h1 class="main-headline__title">
                 EFEKTYWNE ROZWIĄZANIA 
                 DLA WASZEGO BIZNESU
@@ -72,9 +71,9 @@
 
 
         <section class="lorem-section">
-            <div class="lorem-container">
+            <div class="lorem-container container">
                 <ul class="lorem-container__list">
-                    <li class="lorem-container__list-item1">
+                    <li class="lorem-container__list-item element">
                         <div class="lorem-icon">
                             <svg class="lorem-icon__svg">
                                 <use href="./images/icons.svg#antenna"></use>
@@ -85,7 +84,7 @@
                         Sed non sodales dui. Interdum et malesuada</p>
                     </li>
 
-                    <li class="lorem-container__list-item2">
+                    <li class="lorem-container__list-item element">
                         <div class="lorem-icon">
                             <svg class="lorem-icon__svg">
                                 <use href="./images/icons.svg#clock"></use>
@@ -96,7 +95,7 @@
                             Sed non sodales dui. Interdum et malesuada</p>
                     </li>
 
-                    <li class="lorem-container__list-item2">
+                    <li class="lorem-container__list-item element">
                         <div class="lorem-icon">
                             <svg class="lorem-icon__svg">
                                 <use href="./images/icons.svg#diagram"></use>
@@ -107,7 +106,7 @@
                             Sed non sodales dui. Interdum et malesuada</p>
                     </li>
 
-                    <li class="lorem-container__list-item2">
+                    <li class="lorem-container__list-item element">
                         <div class="lorem-icon">
                             <svg class="lorem-icon__svg">
                                 <use href="./images/icons.svg#astronaut"></use>
@@ -122,7 +121,7 @@
         </section>
 
         <section class="">
-            <div class="whatwedo-container">
+            <div class="whatwedo-container container">
                 <h2 class="whatwedo-container__title">Czym się zajmujemy</h2>
                 <ul class="whatwedo-container__list">
                     <li class="whatwedo-container__list-item">
@@ -142,7 +141,7 @@
         </section>
 
         <section class="team">
-            <div class="team-container">
+            <div class="team-container container">
                 <h2 class="team-container__title">Nasz zespół</h2>
                 <ul class="team-container__list">
                     <li>
@@ -275,7 +274,7 @@
 
 
         <section class="customers">
-            <div class="customers-container">
+            <div class="customers-container container">
                 <h2 class="customers-container__title">Nasi klienci</h2>
 
                 <ul class="customers-container__list">
@@ -335,7 +334,7 @@
 
 
     <footer class="footer-section">
-        <div class="footer-container">
+        <div class="footer-container container">
             <ul class="footer-container__list">
                 <li>
                     <a href="" class="link"><span class="footer-logo">Web</span><span class="footer-logo2">Studio</span></a>
@@ -388,7 +387,7 @@
     <!-- ---MODAL-WINDOW--- -->
 
     <div class="modal-window is-hidden" data-modal>
-        <div class="modal-window__container">
+        <div class="modal-window__container container">
             <button type="button" class="modal-window__close-btn" data-modal-close>
                 <svg class="modal-window__close-btn modal-window__close-icon">
                     <use href="./images/symbol-defs.svg#icon-Vector"></use>

@@ -1,7 +1,31 @@
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .element {
+        flex-basis: calc(100% / 2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .element {
+        flex-basis: calc(100% / 3);
+    }
+}
+
+
+
+
 
 // .main-headline__container {
 //     max-width: 1200px;
