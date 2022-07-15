@@ -1,0 +1,89 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+
+.team-container {
+    display: flex;
+    flex-basis: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1, 17em;
+    letter-spacing: 0, 03em;
+    text-align: center;
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+    &__list {
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    &__item {
+    background-color: #ffffff;
+    height: 428px;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    margin: 15px;
+
+}
+
+    &__name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1, 71em;
+    letter-spacing: 0, 03em;
+    text-align: center;
+    color: #212121;
+    background-color: #ffffff;
+}
+
+    &__name-caption {
+    font-size: 16px;
+    line-height: 1, 71em;
+    letter-spacing: 0, 03em;
+    text-align: center;
+    color: #757575;
+    background-color: #ffffff;
+}
+}
+
+.team-icons {
+    display: inline-flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-around;
+
+    &__svg {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    fill: #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    &__svg:hover {
+    background-color: #2196F3;
+    fill: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

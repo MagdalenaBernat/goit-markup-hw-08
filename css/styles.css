@@ -125,7 +125,7 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1,17em;
-            color: #ffffff
+            color: #ffffff;
             background-color: #ffffff;
             padding: 0px;
             margin: 15px;
@@ -197,7 +197,7 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 1,17em;
-        color: #ffffff
+        color: #ffffff;
 }
 
 .contact-main__item-header {
@@ -247,10 +247,8 @@
 
 @media screen (max-width: 480px) {
     .main-headline {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)), url("../images/header-mobile.jpg");
+        background-image: url("../images/header-mobile.jpg");
+
     }
 }
 
@@ -261,6 +259,7 @@
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)), url("../images/header-tablet.jpg");
     }
+
 }
 
 @media screen (min-width: 1200px) {
@@ -664,7 +663,7 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 1,17em;
-        color:#ffffff
+        color:#ffffff;
         background-color: #2F303A;
         display: flex;
         justify-content: center;
