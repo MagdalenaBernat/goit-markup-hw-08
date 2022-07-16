@@ -1,22 +1,30 @@
 /*# sourceMappingURL=main.css.map */
-@import 'components/_logo';
-@import 'components/_navigation';
-@import 'components/_containers';
-@import 'utils/_variables';
-@import 'components/_page-header';
-@import 'components/_header';
-@import 'components/_main-headline';
-@import 'components/_lorem';
-@import 'components/_what-we-do';
-@import 'components/_our-team';
-@import 'components/_our-customers';
-@import 'components/_footer';
-@import 'components/_modal-window';
-@import 'components/_modal-window-form';
-@import 'components/_portfolio-navigation';
-@import 'components/_portfolio-cards';
-@import 'components/_link';
-@import 'components/body';
+@import "./utils/variables";
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/asset";
+@import "./components/button";
+@import "./components/banner";
+@import "./components/client";
+@import "./components/consent";
+@import "./components/contact";
+@import "./components/data-form";
+@import "./components/filter";
+@import "./components/hamburger";
+@import "./components/head-contact";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/newsletter-form";
+@import "./components/overlay";
+@import "./components/portfolio";
+@import "./components/preferences";
+@import "./components/social";
+@import "./components/team";
+@import "./layout/page-header";
+@import "./layout/page-footer";
 
 
 
