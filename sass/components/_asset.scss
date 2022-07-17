@@ -7,6 +7,10 @@
     margin: 0 -15px;
 
     &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: calc(100% - 30px);
         font-weight: 400;
         font-size: 14px;
@@ -23,7 +27,6 @@
         align-items: center;
         margin-bottom: 30px;
         padding: 25px 100px 25px 100px;
-        width: 100%;
         height: 120px;
         background-color: #f5f4fa;
         border-radius: 4px;
@@ -48,7 +51,6 @@
     .asset {
         &__item {
             width: 270px;
-            max-height: 251px;
             margin-left: 15px;
             margin-right: 15px;
 
@@ -98,7 +100,6 @@
         .asset {
             &__item {
                 width: calc(50% - 30px);
-                max-height: 251px;
                 margin-left: 15px;
                 margin-right: 15px;
             }
