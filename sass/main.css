@@ -678,6 +678,7 @@ img {
 
 .menu-container {
   position: fixed;
+  box-sizing: border-box;
   top: 0;
   left: 0;
   width: 100vw;
@@ -718,6 +719,12 @@ img {
 .mobile-menu__link--active-page {
   color: var(--brand-main-color);
 }
+.mobile-menu__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
 
 .mobile-contact {
   text-align: left;
@@ -728,7 +735,6 @@ img {
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  padding-top: 270px;
   padding-bottom: 32px;
 }
 .mobile-contact__link-tel {
@@ -747,6 +753,7 @@ img {
 
 .mobile-social {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
   list-style: none;
