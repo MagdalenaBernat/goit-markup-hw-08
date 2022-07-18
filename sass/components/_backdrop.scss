@@ -7,6 +7,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: var(--transition);
     transition-property: transform, visibility, opacity;
+    z-index: 9999;
 }
 
 .is-hidden {
